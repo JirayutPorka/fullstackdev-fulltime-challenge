@@ -100,6 +100,7 @@ function submitt(){
 	message+="<p class='result'>Total price : "+finalcharge+" THB</p>";
 	message+="<p class='result'>Total pay : "+currentmoney+" THB</p>";
 	resett();
+	enableLocker(usingLocker);
 	document.getElementById("controller").innerHTML= message;
 }
 function getMoneyBack(money){
