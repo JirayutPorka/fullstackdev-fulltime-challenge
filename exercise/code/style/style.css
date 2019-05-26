@@ -1,0 +1,93 @@
+@font-face {
+  font-family: orbiR;
+  src: url(fonts/Orbitron/Orbitron-Regular.ttf);
+}
+body{
+	margin:0;
+	font-family:orbiR;
+}
+table{margin:auto}
+td.s{
+	background-color:#7FB3D5;
+}
+td.m{
+	background-color:#82E0AA;
+}
+td.l{
+	background-color:#F0B27A;
+}
+td{
+	font-size:30px;
+	text-align:center;
+	width:80px;
+	height:80px;
+	border-radius: 10px;
+}
+tr.typelocker td{
+	font-size:60px;
+	font-weight:bold;
+}
+td.controller{
+	width:300px;
+	background-color:#34495E;
+	color:white;
+}
+td.headlocker{
+	background-color:#D6EAF8;
+	font-size:40px;
+}
+td.s:hover { 
+  background-color: #F4D03F;
+  cursor:pointer;
+}
+td.m:hover { 
+  background-color: #F4D03F;
+  cursor:pointer;
+}
+td.l:hover { 
+  background-color: #F4D03F;
+  cursor:pointer;
+}
+div{
+	display:inline-block;
+}
+td.coin{
+	font-size:20px;
+	height:15px;
+	background-color:#F1C40F;
+	border-radius:50%;
+	cursor:pointer;
+}
+td.bil{
+	font-size:20px;
+	height:15px;
+	background-color:#52BE80;
+	border-radius:0px;
+	cursor:pointer;
+}
+td.coin:hover{
+	background-color:white;
+	color:black
+}
+td.bil:hover{
+	background-color:white;
+	color:black
+}
+div.btn{
+	display:inline-block;
+	font-size:20px;
+	cursor:pointer;
+	background-color:#717D7E;
+	padding:10px;
+}
+div.btn:hover{
+	background-color:white;
+	color:black
+}
+p.controllercontent{
+	font-size:20px;
+}
+p.result{font-size:20px;}
+td.disablelocker{
+	background-color:#424949;
+}
